@@ -1,0 +1,7 @@
+lead_time_days,target_service_level,achieved_calibrated,achieved_uncalibrated
+7,0.9,0.926,0.92
+7,0.95,0.965,0.961
+7,0.98,0.986,0.983
+14,0.9,0.929,0.914
+14,0.95,0.965,0.954
+14,0.98,0.988,0.979

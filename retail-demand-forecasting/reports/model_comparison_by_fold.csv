@@ -1,0 +1,7 @@
+Model,Fold,SMAPE,MAE,RMSE,WAPE %
+Weekday average (last 4 weeks),A,17.854,11.221,14.927,16.47
+Weekday average (last 4 weeks),B,26.344,15.135,18.887,27.645
+Seasonal naive x YoY growth,A,12.86,7.749,10.036,11.374
+Seasonal naive x YoY growth,B,14.814,7.147,9.3,13.054
+"Gradient boosting (HGB, 18 features)",A,10.972,6.531,8.497,9.586
+"Gradient boosting (HGB, 18 features)",B,12.399,5.91,7.663,10.794

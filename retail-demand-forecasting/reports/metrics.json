@@ -1,0 +1,55 @@
+{
+  "validation_folds": {
+    "A": "2017-07-01 to 2017-09-28",
+    "B": "2017-10-01 to 2017-12-29"
+  },
+  "average_over_folds": {
+    "Weekday average (last 4 weeks)": {
+      "SMAPE": 22.099,
+      "MAE": 13.178,
+      "RMSE": 16.907,
+      "WAPE %": 22.057
+    },
+    "Seasonal naive x YoY growth": {
+      "SMAPE": 13.837,
+      "MAE": 7.448,
+      "RMSE": 9.668,
+      "WAPE %": 12.214
+    },
+    "Gradient boosting (HGB, 18 features)": {
+      "SMAPE": 11.686,
+      "MAE": 6.22,
+      "RMSE": 8.08,
+      "WAPE %": 10.19
+    }
+  },
+  "aggregate_total_smape_fold_b": {
+    "hgb": 0.843,
+    "snaive": 3.579
+  },
+  "calibration_factors": {
+    "1": 1.002,
+    "2": 1.005,
+    "3": 1.01,
+    "5": 1.018,
+    "7": 1.031,
+    "10": 1.046,
+    "14": 1.071,
+    "21": 1.108,
+    "28": 1.138
+  },
+  "inventory_policy": {
+    "series_per_class": {
+      "A": 311,
+      "B": 123,
+      "C": 66
+    },
+    "volume_share_per_class_pct": {
+      "A": 79.9,
+      "B": 15.1,
+      "C": 5.0
+    },
+    "safety_stock_units_uniform95": 17537.0,
+    "safety_stock_units_abc_policy": 20367.0
+  }
+}
